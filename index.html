@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image with Styled Caption</title>
+<style>
+  .container {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .caption {
+    position: absolute;
+    color: white; /* White text color */
+    padding: 20px;
+    font-size: larger;
+    box-sizing: border-box;
+    text-align: center;
+    opacity: 0.9; /* Increased opacity */
+    z-index: 1; /* Ensures the quotes appear above the image */
+    font-family: 'Arial', sans-serif; /* Adjust font family as needed */
+    border-radius: 10px; /* Rounded corners for the quote box */
+  }
+  .caption p {
+    font-size: 24px; /* Adjusted font size */
+    line-height: 1.5; /* Adjusted line height */
+    font-style:inherit ; /* Italic font style */
+    font-weight: bold; /* Bold font weight */
+  }
+  p2{
+    font-size:larger;
+    color: rgb(233, 179, 30);
+    font-style:normal;
+
+  }
+  a{
+    color: rgb(182, 240, 255);
+  }
+  h4{
+    color: bisque;
+    font-size: medium;
+  }
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://static.vecteezy.com/system/resources/previews/002/215/236/original/iftar-party-invitation-background-with-golden-arabic-lantern-free-vector.jpg" alt="Your Image" class="image">
+  <div class="caption">
+    <p>Inviting All Hidayans Pookarathara (2007-2009) Batch </p>
+    <h4>Date:April-7-sunday</h4>
+    
+    <p2>Location: 
+        <a href="https://maps.app.goo.gl/siYDLQLUXqieCnoAA">Al Tawar Park</a>
+        <a></a>
+    </p2>
+    
+  </div>
+</div>
+
+</body>
+</html>
